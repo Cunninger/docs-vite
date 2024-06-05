@@ -4,13 +4,13 @@
 
 
 
-![alt text](./public/img/image-1.png)
-![alt text](./public/img/image-2.png)
+![alt text](/img/image-1.png)
+![alt text](/img/image-2.png)
 构建好后，npm run dev命令启动查看一下项目
 
 
 
-![alt text](./public/img/image-3.png)
+![alt text](/img/image-3.png)
 
 
 
@@ -59,13 +59,13 @@ new Vue({
 
 
 
-![alt text](./public/img/image.png)
+![alt text](/img/image.png)
 
 在components文件夹里创建nav-top和nav组件，分别用于顶部导航和左边的导航，logo图片是网上随便找的图片，放在src/assets/imgs/logo.png
 
 
 
-![alt text](./public/img/image-4.png)
+![alt text](/img/image-4.png)
 
 
 
@@ -216,7 +216,7 @@ export default {
 接下来创建page文件夹，文件夹里分别创建layout.vue和centre.vue和order.vue三个文件。
 
 注意在==src路径下==
-![alt text](./public/img/image-5.png)
+![alt text](/img/image-5.png)
 
 
 
@@ -394,4 +394,4 @@ html,body{
 
 好了，大概布局已经完成了，现在输入npm run dev启动项目就可以看到管理系统布局了
 
-![alt text](./public/img/image-6.png)
+![alt text](/img/image-6.png)
