@@ -24,7 +24,8 @@ export default defineConfig({
         text: 'Vue后台管理系统',
         collapsed: false, // 设置为 false 表示默认情况下是展开的
         items: [
-          { text: '前端布局设置', link: '/前端布局设置' },
+          // 前端布局设置英文:front-layout-setting
+          { text: '前端布局设置', link: '/article/backmanage/front-layout-setting' },
           { text: 'backmanage', link: '/backmanage' }
         ]
       },
@@ -32,7 +33,7 @@ export default defineConfig({
         text: '开发常见问题',
         collapsed: false, // 设置为 false 表示默认情况下是展开的
         items: [
-          { text: 'vitepress中的public.md', link: '/vitepress中的public.md' },
+          { text: 'vitepress的public', link: '/article/dev-question/vitepresspublic' },
         ]
       },
     ],
