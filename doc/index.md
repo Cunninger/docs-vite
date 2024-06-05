@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+# 主页面
 hero:
   name: "游晓竹"
   text: "A memory site"

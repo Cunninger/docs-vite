@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base: '/',// 自定义域名配置这样配置.
   title: "游晓竹",
   description: "A memory site",
   themeConfig: {
