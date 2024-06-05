@@ -4,7 +4,7 @@ REM 添加所有改动到暂存区
 git add .
 
 REM 提交改动
-git commit -m "better: 页面优化"
+git commit -m "better: 优化图片相对路径"
 
 REM 推送改动到远程仓库
 git push origin main
