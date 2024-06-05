@@ -7,5 +7,5 @@ REM 提交改动
 git commit -m "remove:base"
 
 REM 推送改动到远程仓库
-git push origin main
+git push -u origin main
 
