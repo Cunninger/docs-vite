@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/',// 自定义域名配置这样配置.
@@ -17,10 +18,7 @@ export default defineConfig({
     ],
 
     sidebar: [
-
-
       {
-
         text: 'Vue后台管理系统',
         collapsed: false, // 设置为 false 表示默认情况下是展开的
         items: [
@@ -34,6 +32,13 @@ export default defineConfig({
         collapsed: false, // 设置为 false 表示默认情况下是展开的
         items: [
           { text: 'vitepress的public', link: '/article/dev-question/vitepresspublic' },
+        ]
+      },
+      {
+        text: '建站Record',
+        collapsed: false, // 设置为 false 表示默认情况下是展开的
+        items: [
+          { text: '增加时间记录', link: '/article/makesiteideas/addTime' },
         ]
       },
     ],
@@ -65,5 +70,6 @@ export default defineConfig({
         },
       },
     },
+  
   }
 })
