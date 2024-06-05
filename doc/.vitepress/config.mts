@@ -25,17 +25,14 @@ export default defineConfig({
         collapsed: false, // 设置为 false 表示默认情况下是展开的
         items: [
           { text: '前端布局设置', link: '/前端布局设置' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'introduce', link: '/introduce' },
           { text: 'backmanage', link: '/backmanage' }
         ]
       },
       {
-        text: 'Another Group',
+        text: '开发常见问题',
         collapsed: false, // 设置为 false 表示默认情况下是展开的
         items: [
-          { text: 'Item 1', link: '/another-group/item1' },
-          { text: 'Item 2', link: '/another-group/item2' }
+          { text: 'vitepress中的public.md', link: '/vitepress中的public.md' },
         ]
       },
     ],
