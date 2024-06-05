@@ -35,3 +35,28 @@ features:
     title: 乐于分享
     details: 关于分享，有形的物品越分越少，无形的知识越分越多。在记录与分享的过程中, 梳理所学, 交流所得, 必有所获。
 ---
+<div class="image-container">
+  <img src="https://ghchart.rshah.org/cunninger" alt="cunninger 's Github chart"  class="styled-image" />
+  <figcaption class="image-caption">我的 GitHub 代码贡献表</figcaption>
+</div>
+
+<style scoped>
+.image-container {
+  margin-top: 40px;
+  left: 250px;
+}
+
+.styled-image {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  margin-top: 10px;
+  margin-left:250px;
+  font-size: 14px;
+  color: #666;
+}
+</style>
