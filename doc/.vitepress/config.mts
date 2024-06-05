@@ -4,7 +4,7 @@ export default defineConfig({
   base: '/',// 自定义域名配置这样配置.
   title: "游晓竹",
   description: "A memory site",
-  head: [["link", { rel: "icon", href: "public/image/sqp.png" }]],
+  head: [["link", { rel: "icon", href: "image/sqp.png" }]],
   themeConfig: {
     outlineTitle: '文章目录',
     outline: [2,6],
