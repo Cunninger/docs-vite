@@ -41,6 +41,14 @@ export default defineConfig({
           { text: '增加时间记录', link: '/article/makesiteideas/addTime' },
         ]
       },
+
+      {
+        text: '有趣的项目',
+        collapsed: false, // 设置为 false 表示默认情况下是展开的
+        items: [
+          { text: '汇总', link: '/article/interesting-project/index' },
+        ]
+      },
     ],
 
     socialLinks: [

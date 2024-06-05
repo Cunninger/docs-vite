@@ -21,7 +21,6 @@
           now.value = new Date().toLocaleString();
         }, 1000);
       });
-  
       return {
         now,
         count

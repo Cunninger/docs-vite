@@ -51,12 +51,6 @@ onMounted(() => {
 });
 </script>
 
-<template>
-  <div id="app">
-    <h3>当前时间: {{ now }}</h3>
-    <p>自上学以来已经过了: {{ count }} 天</p>
-  </div>
-</template>
 
 <div class="image-container">
   <img src="https://ghchart.rshah.org/cunninger" alt="cunninger 's Github chart"  class="styled-image" />
