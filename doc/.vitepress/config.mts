@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { set_sidebar } from './utils/auto-gen-sidebar.mjs' // 导入自动生成侧边栏的函数
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',// 自定义域名配置这样配置.
+  base: './',// 自定义域名配置这样配置.
   title: "游晓竹",
   description: "A memory site",
   head: [["link", { rel: "icon", href: "public/image/sqp.png" }]],
