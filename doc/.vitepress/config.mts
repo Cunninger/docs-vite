@@ -24,7 +24,8 @@ export default defineConfig({
         items: [
           // 前端布局设置英文:front-layout-setting
           { text: '前端布局设置', link: '/article/backmanage/front-layout-setting' },
-          { text: 'backmanage', link: '/backmanage' }
+          { text: 'backmanage', link: '/backmanage' },
+          { text: '增加可伸缩侧边栏', link: '/article/backmanage//addsidebar' },
         ]
       },
       {
